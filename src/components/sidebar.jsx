@@ -21,7 +21,7 @@ function Sidebar() {
               style={{ backgroundImage: 'url(images/about.jpg)' }}
             />
             <h1 id='colorlib-logo'>
-              <a href='index.html'>Aaron Elkins</a>
+              <a href='/'>Aaron Elkins</a>
             </h1>
             <span className='email'>
               <a href='mailto:aaron.wayne.elkins@gmail.com'>
@@ -42,8 +42,6 @@ function Sidebar() {
                     About
                   </a>
                 </li>
-                {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                 <li>
                   <a href='#timeline' data-nav-section='timeline'>
                     Timeline
@@ -75,9 +73,9 @@ function Sidebar() {
             </ul>
           </nav>
           <div className='colorlib-footer'>
-            {/* <p>
-                <small>Something coming soon !!</small>
-              </p> */}
+            <p>
+              <small>Annoucements coming soon !!</small>
+            </p>
           </div>
         </aside>
       </div>

@@ -13,7 +13,6 @@ function About() {
               >
                 <div className='col-md-12'>
                   <div className='about-desc'>
-                    {/* <span className='heading-meta'>About Us</span> */}
                     <h2 className='colorlib-heading'>Who Am I?</h2>
                     <p>
                       I am a full time Software Engineer. I enjoy tackling
@@ -34,7 +33,6 @@ function About() {
               className='col-md-6 col-md-offset-3 col-md-pull-3 animate-box'
               data-animate-effect='fadeInLeft'
             >
-              {/* <span className='heading-meta'>What I do?</span> */}
               <h2 className='colorlib-heading'>
                 Here are some of my expertise
               </h2>
@@ -50,7 +48,7 @@ function About() {
                   <h3>Web Development </h3>
                   <p>
                     I have experience building websites and chrome extentions
-                    using React, Node, JavaScript, HTML, CSS
+                    using React, Node, Python, and SCSS
                   </p>
                 </div>
               </div>
@@ -77,47 +75,12 @@ function About() {
                 <div className='desc'>
                   <h3>Teaching</h3>
                   <p>
-                    I have taught intro to Web Development, React component life
-                    cycles, and Automation with Python.
+                    I have taught courses on Web Development, React, and
+                    Automation using Python.
                   </p>
                 </div>
               </div>
             </div>
-            {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
           </div>
         </div>
       </section>

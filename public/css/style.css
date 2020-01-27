@@ -313,10 +313,16 @@ figure figcaption {
 }
 #colorlib-hero .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: bottom center;
   min-height: 400px;
   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  #colorlib-hero .flexslider .slides li {
+    background-size: cover;
+  }
 }
 #colorlib-hero .flexslider .flex-control-nav {
   bottom: 20px;
@@ -427,7 +433,8 @@ figure figcaption {
   font-weight: 400;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-  margin-top: 550px;
+  margin-top: 650px;
+  margin-left: 150px;
   font-size: 20px;
   color: #000;
   border: 1px solid #000;
@@ -444,6 +451,8 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
     width: 100%;
+    margin-top: 550px !important;
+    margin-left: 0px !important;
   }
 }
 
